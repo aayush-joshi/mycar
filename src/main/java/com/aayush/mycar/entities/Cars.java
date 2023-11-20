@@ -19,6 +19,7 @@ public class Cars {
 		this.company = company;
 		this.price = price;
 	}
+//	This is a sample comment just for verification.
 
 	public BigInteger getId() {
 		return id;
@@ -47,6 +48,8 @@ public class Cars {
 	public String getCompany() {
 		return company;
 	}
+	//This too is another comment
+	//line 2 again
 
 	public void setCompany(String company) {
 		this.company = company;
