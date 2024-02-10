@@ -23,7 +23,7 @@ public class CarController {
 	//Displays a welcome message
 	@GetMapping("/homepage")
 	public String myHome() {
-		return "Hello there, Welcome to the Homepage of Cars Store";
+		return "Hello there, Welcome to the Homepage of Cars Store.Browse entire catalogue now";
 	}
 	
 	//Retrieves all Car objects.
